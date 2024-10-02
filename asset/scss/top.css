@@ -1,0 +1,30 @@
+.top{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-height: 930px;
+    overflow: hidden;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.list-imgs{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: left .6s ease-in-out;
+}
+.list-imgs img {
+    min-width: 100vw;
+    max-height: 930px;
+    height: 100vh;
+    object-fit: cover;
+}

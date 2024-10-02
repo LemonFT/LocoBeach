@@ -1,0 +1,35 @@
+.silder-vertical{
+    position: absolute;
+    top: 372px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 190px;
+    width: 16px;
+    z-index: 1000;
+}
+.item-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.item-slider .icon-focus{
+    display: none;
+}
+.item-slider.active .icon-normal {
+    display: none;
+}
+.item-slider.active .icon-focus {
+    display: block;
+}
+.line-white-vertical{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+}

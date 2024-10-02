@@ -1,0 +1,67 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    max-height: 496px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F8F4F0;
+}
+.footer .info-title {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #B49069;
+    margin-bottom: 20px;
+}
+.list-info {
+    max-width: 100%;
+    width: 1280px;
+}
+.list-info .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.list-info .phone{
+    border-top: 1px dotted #B49069;
+    border-bottom: 1px dotted #B49069;
+}
+.list-info .business-details .list-business-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.list-info .info div {
+    font-weight: 400;
+    color: #121926;
+    font-size: 16px;
+    line-height: 24px;
+}
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 36px;
+    padding: 8px;
+    background-color: #1D2939;
+}
+.author span {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
