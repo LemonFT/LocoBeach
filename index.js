@@ -48,5 +48,21 @@ window.addEventListener('load', function () {
             block: 'start'     
         });
     });
+    document.getElementById('btn-scroll-up').addEventListener('click', function (event) {
+        event.preventDefault();
+        const footerElement = document.getElementById('top');
+        footerElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+    window.addEventListener('scroll', () => {
+        const scrollDistance = window.scrollY || document.documentElement.scrollTop;
+        if (scrollDistance > 900) {
+            document.getElementById('btn-scroll-up').style.display = 'block';
+        } else {
+            document.getElementById('btn-scroll-up').style.display = 'none';
+        }
+    });
 });
 
