@@ -3,14 +3,15 @@
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-    width: 45px;
-    height: 70px;
+    width: 30px;
+    height: 50px;
     border: #fff solid 2px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     cursor: pointer;
     z-index: 1000;
+    overflow: hidden;
 }
 
 .scrollDown span {
@@ -25,33 +26,32 @@
 .scrollDown span::before {
     position: absolute;
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border: none;
     border-right: 2px solid #fff;
     border-top: 2px solid #fff;
     transform: translateY(-10px) rotate(135deg);
-    left: -6px;
-    margin-top: 10px;
+    left: -3.5px;
+    margin-top: 15px;
     opacity: 0;
-    animation: ani 1.8s infinite linear;
+    animation: ani 1.5s infinite linear;
 }
 
 
 .scrollDown span::after {
     position: absolute;
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border: none;
     border-right: 2px solid #fff;
     border-top: 2px solid #fff;
     transform: translateY(-10px) rotate(135deg);
-    left: -6px;
+    left: -3.5px;
     margin-top: 10px;
     opacity: 0;
-
-    animation: ani 1.8s infinite linear;
+    animation: ani 1.5s infinite linear;
     animation-delay: 0.8s;
 }
 
@@ -67,7 +67,7 @@
     }
 
     100% {
-        margin-top: 40px;
+        margin-top: 35px;
         opacity: 0;
     }
 }

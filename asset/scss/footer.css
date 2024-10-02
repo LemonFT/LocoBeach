@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     width: 100vw;
     max-height: 496px;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #F8F4F0;
 }
+
 .footer .info-title {
     width: 100%;
     text-align: center;
@@ -17,13 +18,14 @@
     font-size: 40px;
     line-height: 52px;
     color: #B49069;
-    margin-bottom: 20px;
 }
+
 .list-info {
     max-width: 100%;
     width: 1280px;
 }
-.list-info .info{
+
+.list-info .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,24 +35,32 @@
     padding-bottom: 20px;
     width: 100%;
 }
-.list-info .phone{
+
+.list-info .phone {
     border-top: 1px dotted #B49069;
     border-bottom: 1px dotted #B49069;
 }
-.list-info .business-details .list-business-details{
+
+.list-info .business-details .list-business-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
+
 .list-info .info div {
     font-weight: 400;
     color: #121926;
     font-size: 16px;
     line-height: 24px;
 }
-.author{
+
+.list-info .info .title-sub-info {
+    font-weight: 600 !important;
+}
+
+.author {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +69,7 @@
     padding: 8px;
     background-color: #1D2939;
 }
+
 .author span {
     color: white;
     font-weight: 400;

@@ -1,18 +1,26 @@
-.top{
+.top {
     position: relative;
     width: 100vw;
     height: 100vh;
     max-height: 930px;
     overflow: hidden;
 }
+
 .logo {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
 }
-.list-imgs{
+
+.list-imgs {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -21,7 +29,9 @@
     justify-content: start;
     align-items: center;
     transition: left .6s ease-in-out;
+
 }
+
 .list-imgs img {
     min-width: 100vw;
     max-height: 930px;
